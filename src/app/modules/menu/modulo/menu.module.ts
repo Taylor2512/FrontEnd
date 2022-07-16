@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 
 import { MenuRoutingModule } from './menu-routing.module';
 import { MenuComponent } from '../component/menu.component';
+import { NavcarComponent } from 'src/app/Shared/navcar/navcar.component';
 
 
 @NgModule({
   declarations: [
-    MenuComponent
+    MenuComponent,
+    NavcarComponent
   ],
   imports: [
     CommonModule,
